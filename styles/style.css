@@ -57,7 +57,7 @@ body {
 }
 
 .front_title::before {
-    background-image: url(/images/fl_property/feature_17.jpeg);
+    background-image: url("/images/fl_property/feature_17.jpeg");
     background-size: cover;
     background-position: center;
     position: absolute;
