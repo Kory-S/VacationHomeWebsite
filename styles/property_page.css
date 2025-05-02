@@ -55,16 +55,17 @@
     padding: 4px 0;
 }
 
-
-
-
+.brief_description {
+    margin: 5vh auto 0 auto;
+    width: 1220px;
+}
 
 .property_images {
-    width: 1300px;
+    width: 1220px;
     height: 600px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .main_image {
@@ -91,4 +92,17 @@
     width: 290px;
     height: 290px;
     border-radius: 10px;
+}
+
+
+
+.booking_sites {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.booking_sites a svg, .booking_sites a img {
+    margin-top: 50px;
+    height: 44px;
 }
