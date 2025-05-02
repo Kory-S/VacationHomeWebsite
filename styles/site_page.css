@@ -1,0 +1,26 @@
+.site_map_contents, .contact_contents {
+    height: 85vh;
+}
+
+.site_map_header {
+    color: #000000;
+    font-size: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;    
+}
+
+.site_map_links, .contact_options {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.contact_options {
+    flex-direction: column;
+}
+
+.site_map_pages, .contact_options li {
+    list-style: none;
+    padding: 10px;
+}
