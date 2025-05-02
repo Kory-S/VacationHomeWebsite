@@ -1,0 +1,29 @@
+footer {
+    height: 14vh;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.footer_details {
+}
+
+.footer_information {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    padding: 4vh 0;
+}
+
+.footer_link {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.footer_logo {
+    display: flex;
+    justify-content: center;  
+    color: #ffffff;
+}
