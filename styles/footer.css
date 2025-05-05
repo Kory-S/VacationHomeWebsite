@@ -26,4 +26,5 @@ footer {
     display: flex;
     justify-content: center;  
     color: #ffffff;
+    padding-bottom: 20px;
 }
