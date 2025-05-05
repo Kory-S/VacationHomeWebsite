@@ -155,8 +155,8 @@ This is used exclusively for properties that change based on screen size
     }
 }
 
-@media (min-width: 787px) and (max-width: 1050px) {
-
+@media (min-width: 600px) and (max-width: 1050px) {
+    
     .welcome_title {
         font-size: 40px;
     }
@@ -164,6 +164,19 @@ This is used exclusively for properties that change based on screen size
     .welcome_second_title {
         font-size: 20px;
     }
+}
+
+@media (max-width: 599px) {
+    .welcome_title {
+        font-size: 30px;
+    }
+
+    .welcome_second_title {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 787px) and (max-width: 1050px) {
 
     .preview_top_image {
     width: 250px;
@@ -223,16 +236,23 @@ This is used exclusively for properties that change based on screen size
     }
 }
 
-@media (max-width: 786px) {
+@media (min-width: 787px) {
+    .property_preview {
+        margin: 6vh auto;
+    }
+
+    .all_content {
+        margin: 20vh auto;
+    }
     
-    .welcome_title {
-        font-size: 40px;
-    }
+}
 
-    .welcome_second_title {
-        font-size: 20px;
-    }
+@media (max-width: 786px) {
 
+    .all_content {
+        margin: 8vh auto;
+    }
+    
     .preview_top_image {
         height: 0;
         width: 0;
@@ -243,29 +263,35 @@ This is used exclusively for properties that change based on screen size
     }
     
     .property_preview {
-        width: 100%;
+        margin: 2vh auto;
+        flex-direction: column;
+        padding: 0;
     }
     
     .additional_image_window {
-        height: 308px;
-        width: 308px;
+        height: 0;
+        width: 0;
         display: flex;
         flex-direction: column;
     }
+
+    .main_preview_image {
+        margin: 0 auto;
+    }
     
     .additional_image_preview {
-        height: 148px;
-        width: 148px;
+        height: 0;
+        width: 0;
     }
     
     .property_preview_details {
-        width: 60%;
-        height: 300px;
+        height: 200px;
+        margin: 0 auto;
     }
     
     .property_preview_details h3{
         font-size: 30px;
-        margin: 20px auto 2px 10px;
+        margin: 0 auto 2px 10px;
     }
     
     .property_preview_amenities, .property_amenities {

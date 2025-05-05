@@ -81,13 +81,9 @@ body {
     border-radius: 10px;
 }
 
-.all_content {
-    margin: 20vh auto;
-}
 
 .property_preview {
     display: flex;
-    margin: 6vh auto;
 }
 
 .property_preview:hover {
@@ -120,12 +116,7 @@ body {
     object-fit: cover;
 }
 
-.property_preview_details {
-    height: 308px;
-    display: flex;
-    flex-direction: column;
-    font-family: sans-serif;
-}
+
 
 .property_preview_details h3{
     font-size: 30px;
