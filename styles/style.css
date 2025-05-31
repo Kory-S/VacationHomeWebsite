@@ -80,7 +80,9 @@ body {
     margin: 36vh 20px 0;
     border-radius: 10px;
 }
-
+.preview_top_image:hover {
+    background-color: #808080;
+}
 
 .property_preview {
     display: flex;

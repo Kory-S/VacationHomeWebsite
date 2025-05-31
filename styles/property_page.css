@@ -49,13 +49,14 @@ button:hover {
 }
 
 .more_details {
-    display: none;
-    border: solid red 2px;
+    border: solid #808080 2px;
+    box-shadow: 0 0 0 100vw #80808090;
     position: fixed;
     top: 50%;
     Left: 50%;
     transform: translate(-50%, -50%);
     width: 70vw;
+    max-width: 650px;
     height: 70vh;
     border-radius: 20px;
     background-color: #e0e0e0;
