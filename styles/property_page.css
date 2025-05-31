@@ -6,6 +6,7 @@
 
 .property_details {
     width: 600px;
+    margin-right: 10px;
 }
 
 .scheduling {
@@ -29,8 +30,56 @@
 }
 
 .property_description {
-    padding-top: 20px;
+    margin-top: 20px;
 }
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid #808080 1px;
+    margin: 20px 1px;
+}
+
+button:hover {
+    border: 0px;
+    margin: 21px 0;
+    background-color: #e0e0e0;
+    box-shadow: 0 0 6px #808080;
+}
+
+.more_details {
+    display: none;
+    border: solid red 2px;
+    position: fixed;
+    top: 50%;
+    Left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    height: 70vh;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    padding: 40px;
+    overflow: scroll;
+}
+
+.more_details::-webkit-scrollbar {
+    width: 10px;
+    height: 0;
+}
+.more_details::-webkit-scrollbar-track {
+    background: none;
+    margin: 10px 0;
+    border-radius: 50px;
+}
+.more_details::-webkit-scrollbar-thumb {
+    background: #80808075;
+    border-radius: 50px;
+}
+.more_details::-webkit-scrollbar-thumb:hover {
+    background: #808080;
+}
+
 
 .things_to_know {
     margin: 40px 0;
