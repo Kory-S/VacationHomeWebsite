@@ -33,7 +33,7 @@
     margin-top: 20px;
 }
 
-button {
+.show_all {
     padding: 10px;
     font-size: 16px;
     border-radius: 10px;
@@ -49,6 +49,7 @@ button:hover {
 }
 
 .more_details {
+    display: none;
     border: solid #808080 2px;
     box-shadow: 0 0 0 100vw #80808090;
     position: fixed;
@@ -62,6 +63,9 @@ button:hover {
     background-color: #e0e0e0;
     padding: 40px;
     overflow: scroll;
+}
+.show_hidden{
+    display: block;
 }
 
 .more_details::-webkit-scrollbar {

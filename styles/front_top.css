@@ -1,0 +1,59 @@
+.front_title {
+    height: 50vw;
+    max-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.front_title::before {
+    background-image: url("./background_images/feature_17.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    content: '';
+    inset: -10px 0 0;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.title_text {
+    border: solid #ffffff 2px;
+    border-radius: 4px;
+    margin: 50px;
+    padding: 20px;
+    margin: 10vh auto 2vh;
+    background-color: #00000080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome_title {
+    color: #ffffff;
+    display:flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 4VW;
+}
+
+.welcome_second_title {
+    color: #ffffff;
+    align-self: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 3vw;
+}
+
+@media(min-width: 1920px) {
+    .welcome_title {
+        font-size: 76px;
+    }
+
+    .welcome_second_title {
+        font-size: 58px;
+    }
+}

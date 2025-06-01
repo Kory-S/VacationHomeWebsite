@@ -1,0 +1,22 @@
+
+.preview_top {
+    display: flex;
+}
+
+.preview_top_image {
+    border: solid red 2px;
+    border-radius: 10px;
+}
+
+.preview_top_image img {
+    object-fit: contain;
+}
+
+.preview_top_image:hover {
+    background-color: #808080;
+}
+
+    .preview_top_image {
+    width: 250px;
+    height: 250px;
+    }

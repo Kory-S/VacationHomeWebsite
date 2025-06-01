@@ -147,11 +147,9 @@ This is used exclusively for properties that change based on screen size
 
 @media(min-width: 1051px) {
     .welcome_title {
-        font-size: 80px;
     }
 
     .welcome_second_title {
-        font-size: 50px;
     }
 }
 

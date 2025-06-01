@@ -4,6 +4,7 @@
 @import url(navbar.css);
 @import url(style_mediaqueries.css);
 @import url(property_mediaqueries.css);
+@import url(front_top.css);
 
 
 * {
@@ -23,53 +24,6 @@ body {
     transition: 0.2s;
     font-family: sans-serif;
     font-size: 22px;
-}
-
-.front_title {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
-
-.front_title::before {
-    background-image: url("./background_images/feature_17.jpeg");
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    content: '';
-    inset: -10px 0 0;
-    filter: blur(10px);
-    z-index: -1;
-}
-
-.title_text {
-    border: solid #ffffff 2px;
-    border-radius: 4px;
-    margin: 50px;
-    padding: 20px;
-    margin: 10vh auto 2vh;
-    background-color: #00000080;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.welcome_title {
-    color: #ffffff;
-    display:flex;
-    justify-content: center;
-    font-family: sans-serif;
-    font-weight: 800;
-}
-
-.welcome_second_title {
-    color: #ffffff;
-    align-self: center;
-    font-family: sans-serif;
-    font-weight: 100;
 }
 
 .preview_top {
@@ -139,4 +93,8 @@ body {
 
 .property_preview_details p {
     margin: auto 10px;
+}
+
+hr {
+    margin: 4px 0;
 }
