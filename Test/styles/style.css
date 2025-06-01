@@ -1,0 +1,23 @@
+@import url(navbar.css);
+@import url(front_top.css);
+@import url(front_preview_iamges.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #b4bfb430;
+}
+
+#homepage_logo, .footer_logo{
+    text-decoration: none;
+    padding: 8px;
+    color: #000000;
+    transition: 0.2s;
+    font-family: sans-serif;
+    font-size: 22px;
+}

@@ -145,6 +145,35 @@ This is used exclusively for properties that change based on screen size
     }
 }
 
+@media(min-width: 1051px) {
+    .welcome_title {
+    }
+
+    .welcome_second_title {
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1050px) {
+    
+    .welcome_title {
+        font-size: 40px;
+    }
+
+    .welcome_second_title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 599px) {
+    .welcome_title {
+        font-size: 30px;
+    }
+
+    .welcome_second_title {
+        font-size: 20px;
+    }
+}
+
 @media (min-width: 787px) and (max-width: 1050px) {
 
     .preview_top_image {
