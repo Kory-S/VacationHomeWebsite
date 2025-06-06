@@ -1,6 +1,8 @@
+@import url(footer.css);
+@import url(property_page.css);
+@import url(site_page.css);
 @import url(navbar.css);
-@import url(front_top.css);
-@import url(front_preview_iamges.css);
+@import url(style_mediaqueries.css);
 
 
 * {
@@ -10,7 +12,7 @@
 }
 
 body {
-    background-color: #b4bfb430;
+    background-color: #8e99c930;
 }
 
 #homepage_logo, .footer_logo{
@@ -20,4 +22,100 @@ body {
     transition: 0.2s;
     font-family: sans-serif;
     font-size: 22px;
+}
+
+.preview_top {
+    position: absolute;
+}
+
+.preview_top_image {
+    margin: 36vh 20px 0;
+    border-radius: 10px;
+}
+.preview_top_image:hover {
+    background-color: #808080;
+}
+
+.all_content {
+    width: 80vw;
+    margin: 20vh auto;
+}
+
+.property_preview {
+    display: flex;
+    background-color: #8e99c930;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 6vh auto;
+}
+.property_preview:hover {
+    border-radius: 10px;
+    border: solid #353535 0px;
+    box-shadow: 0 0 10px #2d2012;
+    transition: 0.2s;
+}
+
+.property_preview_images {
+    display: flex;
+}
+
+.main_preview_image {
+    height: 314px;
+    width: 314px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.additional_image_window {
+    display: flex;
+    flex-wrap: wrap;
+    height: 314px;
+    width: 314px;
+    margin-right: 10px;
+}
+
+.additional_image_preview {
+    border-radius: 5px;
+    height: 152px;
+    width: 152px;
+}
+.row_1 {
+    margin-bottom: 10px;
+}
+
+.column_1 {
+    margin-right: 10px;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.property_preview_details {
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+}
+
+.property_preview_details h3{
+    font-size: 30px;
+    margin: 20px auto 2px 10px;
+}
+
+.property_preview_amenities, .property_amenities {
+    display: flex;
+    padding: 10px;
+}
+
+.property_preview_amenities li, .property_amenities li {
+    list-style: none;
+    color: #353535;
+    padding: 0 10px 20px 10px;
+    border-bottom: solid #808080 1px;
+
+}
+
+.property_preview_details p {
+    margin: 20px;
+    width: 90%;
 }

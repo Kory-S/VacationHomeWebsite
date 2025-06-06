@@ -4,7 +4,7 @@
 }
 
 .preview_images_container {
-    margin: 8vh 2vw;
+    margin: 2vw;
 }
 
 .preview_top_image {
@@ -59,7 +59,7 @@
     transition: 0.2s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     .preview_top_image, .overlay_image, .overlay_text{
         display: none;
     }

@@ -3,6 +3,7 @@
 @import url(site_page.css);
 @import url(navbar.css);
 @import url(style_mediaqueries.css);
+@import url(property_mediaqueries.css);
 @import url(front_top.css);
 @import url(front_preview_images.css);
 
@@ -26,6 +27,17 @@ body {
     font-size: 22px;
 }
 
+.preview_top {
+    position: absolute;
+}
+
+.preview_top_image {
+    margin: 36vh 20px 0;
+    border-radius: 10px;
+}
+.preview_top_image:hover {
+    background-color: #808080;
+}
 
 .property_preview {
     display: flex;
